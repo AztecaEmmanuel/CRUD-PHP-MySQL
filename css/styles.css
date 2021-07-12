@@ -1,0 +1,12 @@
+*::before,
+*:after,
+* {
+  color: #ffffff;
+}
+
+.box {
+  border: thin solid #ffffff;
+  border-radius: 5px !important;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(15px);
+}
